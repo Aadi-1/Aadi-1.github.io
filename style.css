@@ -1,0 +1,150 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: cover;
+    background-position: left bottom;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+/*ABT ME*/
+
+#section-about-me{
+    margin-top: 50px;
+    height: 80vh;
+}
+
+.about-me-container{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+}
+
+#abtme-img{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 20px;
+
+}
+
+.header{
+    display: block;
+    align-items: center;
+    margin-top: 60px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.abt-me-intro{
+    font-size: 20px;
+}
+
+/*Education*/
+#section-education{
+    height: 70vh;
+    text-align: center;
+}
+.section.education.header{
+    margin-top: 200px;
+
+}
+.section.education h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section.education p{
+    margin-bottom: 10px;
+}
+
+.major{
+    margin-top: -10px;
+}
+
+/*Projects/Skills*/
+#section-projects{
+    height: 80vh;
+    text-align: center;
+}
+
+.project-pic{
+    width: 230px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.project-row{
+    display: flex;
+}
+
+.project-col1 {
+    flex-basis: 50%;
+    padding: 20px;
+
+}
+
+.project-col2 {
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+/*Contact*/
+#section-contact{
+    height: 30vh;
+    text-align: center;
+}
+
+.row{
+    display: block;
+    align-items: center;
+    justify-content: cover;
+}
+
+.col{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+}
+
+#insta{
+    width: 80px;
+    height: auto;
+}
+
+#github{
+    width: 100px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+#gmail{
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#linkedin{
+    width: 100px;
+    height: auto;
+}
