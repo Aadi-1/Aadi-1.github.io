@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Enables static export for GitHub Pages
+  output: "export", // Enables static site export
+  distDir: "out", // Sets the output directory
+  basePath: "/Aadi-1.github.io", // Set your repo name as the basePath
   images: {
-    unoptimized: true, // Required for static export if using next/image
+    unoptimized: true, // Disables Next.js image optimization
   },
-  basePath: "/Aadi-1.github.io", // Change this to your actual GitHub repo name
-  assetPrefix: "/Aadi-1.github.io", // Ensures assets load correctly
 };
 
 export default nextConfig;
